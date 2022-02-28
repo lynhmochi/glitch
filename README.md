@@ -1,2 +1,1 @@
-# glitch
-silly goofy projects to learn Flask
+# Python3 Flask project
