@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>More trending GIFs</title>
+    <link rel="stylesheet" type="text/css" href="static/style.css" />
+  </head>
+  <body>
+    {% for item in images %}
+    <li>
+      <a href="{{ item }}">
+        <img src="{{item}}" />
+      </a>
+    </li>
+    {% endfor %}
+    <form method="post">
+      <input type="submit" value="Next Page" />
+    </form>
+  </body>
+</html>
